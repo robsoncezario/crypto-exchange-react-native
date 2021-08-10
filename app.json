@@ -5,7 +5,10 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "apiUrl": "http://localhost:5000"
+    }
   },
   "name": "exchange"
 }
