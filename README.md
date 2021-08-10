@@ -4,9 +4,9 @@ This is a WIP
 
 ## 
 ```
-    Redux
-    Styled-components
-    I18n
+Redux
+Styled-components
+I18n
 ```
 
 ## Setup
@@ -14,15 +14,15 @@ This is a WIP
 Clone the repository and run
 
 ```
-    npm install
-    cd ios
-    pod install
+npm install
+cd ios
+pod install
 ```
 
 ## Run
 ```
-    npm run ios 
-    npm run android
+npm run ios 
+npm run android
 ```
 
 ![Exchange](https://i.imgur.com/XnZOZvk.png)
