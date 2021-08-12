@@ -25,5 +25,5 @@ npm run ios
 npm run android
 ```
 
-![Exchange](https://i.imgur.com/XnZOZvk.png)
+![Exchange](https://i.imgur.com/X5Y62Me.png)
 ![Home](https://i.imgur.com/51MkTWL.png)
