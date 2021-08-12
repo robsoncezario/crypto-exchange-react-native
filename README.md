@@ -26,3 +26,4 @@ npm run android
 ```
 
 ![Exchange](https://i.imgur.com/XnZOZvk.png)
+![Home](https://i.imgur.com/51MkTWL.png)
