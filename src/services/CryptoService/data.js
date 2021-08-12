@@ -17,7 +17,7 @@ export default [
   icon: require('../../../assets/images/cryptos/eth.svg'),
   color: '#8C8C8C',
   last24Hours: 9.07,
-  price: 44589.10,
+  price: 3120.10,
   historicalData: [50, 10, 40, 95, -4, -24, 85, 91, 35, 53, -53, 24, 50, -20, -80]
 },
 

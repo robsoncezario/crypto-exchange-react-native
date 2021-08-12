@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeScreen from '../../screens/Home'
+import WalletScreen from '../../screens/Wallet'
 
 export default [
 {
@@ -20,5 +21,5 @@ export default [
   key: 'wallet-screen',
   name: 'Wallet',
   icon: 'wallet',
-  component: HomeScreen
+  component: WalletScreen
 }]

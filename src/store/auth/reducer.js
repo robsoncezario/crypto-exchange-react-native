@@ -2,7 +2,7 @@ import { AuthEnum } from './types'
 
 const initialState = {
   token: null,
-  isLoggedIn: false
+  isLoggedIn: true
 }
 
 const authReducer = (state = initialState, action) => {

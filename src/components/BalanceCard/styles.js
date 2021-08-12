@@ -1,12 +1,13 @@
 import styled from 'styled-components/native'
 import { LinearGradient } from 'expo-linear-gradient'
+import Color from 'color' 
 
 export const Wrapper = styled.TouchableOpacity`
   flex: 1;
 `
 
-export const Container = styled(LinearGradient).attrs(() => ({
-  colors: ['#5f0a87', '#a4508b']
+export const Container = styled(LinearGradient).attrs(({theme}) => ({
+  colors: [(Color(theme.colors.primary).lighten(0.1)).toString().trim(), theme.colors.primary]
 }))`
   flex: 1;
   height: 200px;

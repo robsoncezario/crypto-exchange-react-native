@@ -7,6 +7,10 @@ export default {
 
       get home() {
         return require('../../assets/locales/en/home.json')
+      },
+
+			get wallet() {
+        return require('../../assets/locales/en/wallet.json')
       }
     },
     isRTL: false
@@ -20,6 +24,10 @@ export default {
 
       get home() {
         return require('../../assets/locales/pt/home.json')
+      },
+
+			get wallet() {
+        return require('../../assets/locales/pt/wallet.json')
       }
     },
     isRTL: false
