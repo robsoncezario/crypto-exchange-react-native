@@ -1,5 +1,5 @@
-import styled from 'styled-components/native'
-import Color from 'color'
+import styled from "styled-components/native";
+import Color from "color";
 
 export const Container = styled.View`
   display: flex;
@@ -13,26 +13,26 @@ export const Container = styled.View`
   padding-right: 20px;
   width: 100%;
   height: 50px;
-  background-color: ${({theme}) => theme.colors.background};
-`
+  background-color: ${({ theme }) => theme.colors.background};
+`;
 
 export const Title = styled.Text`
   font-size: 26px;
-  font-family: ${({theme}) => theme.text.fontFamily.semiBold};
+  font-family: ${({ theme }) => theme.text.fontFamily.semiBold};
   line-height: 40px;
-  color: ${({theme}) => theme.text.colors.primary};
-`
+  color: ${({ theme }) => theme.text.colors.primary};
+`;
 
 export const Button = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
-  background-color: ${({theme}) => Color(theme.colors.primary).alpha(0.2)};
+  background-color: ${({ theme }) => Color(theme.colors.primary).alpha(0.2)};
   border-radius: 24px;
   height: 32px;
   width: 32px;
-`
+`;
 
 export const Row = styled.View`
   align-items: center;
   flex-direction: row;
-`
+`;

@@ -1,12 +1,6 @@
-import React from 'react'
-import {
-	Container
-} from './styles'
+import React from "react";
+import { Container } from "./styles";
 
 export default function CurrencyDetails() {
-	return (
-		<Container>
-			
-		</Container>
-	)
+  return <Container></Container>;
 }

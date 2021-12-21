@@ -1,13 +1,13 @@
-import React from 'react'
-import { useFonts } from 'expo-font'
+import React from "react";
+import { useFonts } from "expo-font";
 import {
   Poppins_300Light,
   Poppins_400Regular,
   Poppins_500Medium,
   Poppins_600SemiBold,
   Poppins_700Bold,
-  Poppins_900Black
-} from '@expo-google-fonts/poppins'
+  Poppins_900Black,
+} from "@expo-google-fonts/poppins";
 
 export default function FontsProvider({ children }) {
   const [fontsLoaded] = useFonts({
@@ -16,12 +16,12 @@ export default function FontsProvider({ children }) {
     Poppins_500Medium,
     Poppins_600SemiBold,
     Poppins_700Bold,
-    Poppins_900Black
-  })
+    Poppins_900Black,
+  });
 
   if (fontsLoaded) {
-    return children
+    return children;
   }
 
-  return null
+  return null;
 }

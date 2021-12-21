@@ -1,31 +1,33 @@
-import { AuthEnum } from './types'
+import { AuthEnum } from "./types";
 
 const initialState = {
   token: null,
-  isLoggedIn: true
-}
+  isLoggedIn: true,
+};
 
 const authReducer = (state = initialState, action) => {
-  switch(action.type) {
+  switch (action.type) {
     case AuthEnum.LogIn:
       return {
-        ...state, ...{
-          isLoggedIn: true
+        ...state,
+        ...{
+          isLoggedIn: true,
         },
         ...{
-          token: action.payload
-        }
-      }
-    case AuthEnum.LogOut: 
+          token: action.payload,
+        },
+      };
+    case AuthEnum.LogOut:
       return {
-        ...state, ...{
+        ...state,
+        ...{
           token: null,
-          isLoggedIn: false
-        }
-      }
+          isLoggedIn: false,
+        },
+      };
     default:
-      return state
+      return state;
   }
-}
+};
 
-export default authReducer
+export default authReducer;

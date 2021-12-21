@@ -1,4 +1,4 @@
 export const AuthEnum = Object.freeze({
-  LogIn: '@auth/logIn',
-  LogOut: '@auth/logOut'
-})
+  LogIn: "@auth/logIn",
+  LogOut: "@auth/logOut",
+});
